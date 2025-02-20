@@ -1,3 +1,4 @@
 .ipynb*
 venv/*
 course_downloads
+__pycache__/
