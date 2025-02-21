@@ -1,0 +1,6 @@
+[flake8]
+; max-line-length = 88
+extend-ignore = 
+    E203, # Whitespace before ':' (conflicts with Black)
+    E704, # Multiple statements on one line (def)
+    E502 # Line too long (handled separately by Black)

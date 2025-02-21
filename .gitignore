@@ -2,3 +2,4 @@
 venv/*
 course_downloads
 __pycache__/
+# .flake8

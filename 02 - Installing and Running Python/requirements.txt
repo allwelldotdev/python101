@@ -9,3 +9,5 @@ scipy
 pandas
 matplotlib
 mplfinance
+black==23.3.0
+flake8==6.1.0
