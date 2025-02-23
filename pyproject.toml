@@ -1,0 +1,15 @@
+# using uv for python project management
+
+[project]
+name = "python101"
+version = "0.1.0"
+description = "Learning Python from the ground up"
+requires-python = ">=3.9"
+dependencies = [] # check requirements.txt file in '02 - Installing and Running Python' directory
+
+[tool.ruff]
+target-version = "py39"
+
+[tool.ruff.lint]
+extend-select = ["A", "B", "UP", "I"]
+ignore = []
